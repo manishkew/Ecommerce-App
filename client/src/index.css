@@ -1,0 +1,81 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+* {
+  max-width: 100%;
+  overflow-y: 75vh;
+}
+.navbar{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 17px;
+  line-height: 26px;
+  text-transform:uppercase;
+  box-shadow: 0 8px 6px -6px gray;
+  border-bottom: 0.5px solid gray;
+
+}
+.nav{
+  font-weight: 300 !important;
+}
+.active{
+  border-bottom: 1px solid black;
+}
+.navbar-brand{
+  font-weight: 700;
+  font-family: 'roboto',sans-serif;
+  letter-spacing: 3px;
+}
+/* ==================================================== */
+.footer{
+  height: 95px;
+  color: white;
+  padding: 25px;
+  background-color: black;
+  background: -webkit-linear-gradient(to right,
+  #434343,#000000);
+  background: linear-gradient(to right #434343,#000000);
+}
+
+.footer a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+
+}
+.footer a:hover{
+  color: rgb(202, 45, 45);
+  border-bottom: 1px solid #538b97}
+
+  /*---------------------------------------------------------*/
+
+  .pnf{
+    display: flex;
+    min-height: 65vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .pnf-title{
+    font-size: 100px;
+    font-weight: normal;
+  }
+  .pnf-heading{
+    font-weight: normal;
+  }
+  .pnf-btn{
+    color: black;
+    border: 1px solid black;
+    text-decoration: none;
+    padding: 10px;
+    margin-top: 10px;
+  }
+  /* =-================================================ */
+  /* .register{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 70vh;
+      flex-direction: column;
+  } */

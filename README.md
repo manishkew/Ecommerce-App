@@ -1,1 +1,1 @@
-# Ecommerce-App using MERN APP
+# Ecommerce-App using MERN Stack
